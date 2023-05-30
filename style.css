@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
   background: linear-gradient(#5f0a87, #a4508b);
 }
 
@@ -18,7 +18,7 @@ a {
   max-width: 80rem;
   margin: 0 auto;
   height: 100%;
-  padding: 0 40px;
+  padding: 2rem 40px;
 }
 
 .navbar {
@@ -156,6 +156,35 @@ a {
 .social-media {
   filter: brightness(10);
 }
+
+/* Style Sejarah Section */
+.main-sejarah {
+  color: #fff;
+  padding-top: 2rem;
+}
+
+.title-sejarah {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.misi ol {
+  padding-left: 1rem;
+}
+
+.misi ol li {
+  padding-left: 0.8rem;
+}
+
+.suggest {
+  margin-top: 2rem;
+}
+
+.suggest .join-us {
+  color: #00e1ff;
+}
+
+/* End Style Sejarah Section */
 
 @media screen and (max-width: 1439px) {
   .container {
