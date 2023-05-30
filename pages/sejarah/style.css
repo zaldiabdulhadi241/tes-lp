@@ -5,7 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  color: #fff;
   background: linear-gradient(#5f0a87, #a4508b);
 }
 
@@ -19,6 +19,7 @@ a {
   margin: 0 auto;
   height: 100%;
   padding: 0 40px;
+  padding-bottom: 2rem;
 }
 
 .navbar {
@@ -65,6 +66,31 @@ a {
   display: flex;
   column-gap: 15px;
   align-items: center;
+}
+
+.main {
+  padding-top: 2rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.misi ol {
+  padding-left: 1rem;
+}
+
+.misi ol li {
+  padding-left: 0.8rem;
+}
+
+.suggest {
+  margin-top: 2rem;
+}
+
+.suggest .join-us {
+  color: #00e1ff;
 }
 
 @media screen and (max-width: 1439px) {

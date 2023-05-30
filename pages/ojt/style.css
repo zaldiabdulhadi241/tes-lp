@@ -66,3 +66,47 @@ a {
   column-gap: 15px;
   align-items: center;
 }
+
+@media screen and (max-width: 1439px) {
+  .container {
+    max-width: 65rem;
+  }
+
+  .navbar-menu__wrapper {
+    column-gap: 70px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar {
+    padding-top: 20px;
+  }
+
+  .navbar-menu__wrapper {
+    font-size: 14px;
+    column-gap: 50px;
+  }
+
+  .navbar__menu {
+    column-gap: 45px;
+  }
+
+  .navbar__logo img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 25px;
+  }
+
+  .navbar-menu__wrapper {
+    display: none;
+  }
+
+  .navbar-menu__small-device {
+    display: block;
+  }
+}
